@@ -1,0 +1,17 @@
+GET http://127.0.0.1:3000/cards
+
+###
+
+POST http://127.0.0.1:3000/cards
+Content-Type: application/json
+
+{
+  "description": "This is a test card",
+  "listId": "647b3b4108eebd4b032bce74",
+  "position": 0,
+  "color": null
+}
+
+###
+
+DELETE http://127.0.0.1:3000/cards/647b5dd093ecc7142e844cd1

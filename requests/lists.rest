@@ -1,0 +1,14 @@
+GET http://127.0.0.1:3000/lists
+
+###
+
+POST http://127.0.0.1:3000/lists
+Content-Type: application/json
+
+{
+  "name": "My new list"
+}
+
+###
+
+DELETE http://127.0.0.1:3000/lists/647b5b4a41a48cbbf236fd1b
