@@ -1,2 +1,2 @@
-# kanban-react-server
+# kanban-server
 Node.js server for a Kanban board
